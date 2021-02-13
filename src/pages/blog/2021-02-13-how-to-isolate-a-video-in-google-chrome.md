@@ -20,11 +20,9 @@ Say you're on some sketchy website that decided a chatbox and 15 ads would be a 
 
 Wherever you find yourself, sometimes it's helpful to just delete everything on the page except for the video.
 
-
-
 ## The Code
 
-#### Finding the video
+#### Finding and storing the video
 
 First things first, we need to find a video.
 
@@ -35,6 +33,18 @@ var videoCollection = document.getElementsByTagName('video');
 ```
 
 this will store all of the **video** elements inside of an [HTMLCollection](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection) (this is similar to an array, but with a few key differences that we won't be getting into. If you'd like to learn more, refer to the link.)
+
+#### Moving the video
+
+I'm sure you're thinking it's odd that we need to move the video, but I found that this is very useful for a few reasons that I'll describe below.
+
+Next up we use 
+
+```
+document.body.before(videoCollection[0]);
+```
+
+Alright, why did we need to move the video?
 
 
 
