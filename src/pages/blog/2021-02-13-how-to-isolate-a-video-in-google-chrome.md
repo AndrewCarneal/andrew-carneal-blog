@@ -5,7 +5,7 @@ date: 2021-02-13T17:36:39.436Z
 description: Taking a look at the couple lines of code behind my Video Isolator
   extension for Google Chrome.
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog-index.jpg
 tags:
   - javascript
   - html
