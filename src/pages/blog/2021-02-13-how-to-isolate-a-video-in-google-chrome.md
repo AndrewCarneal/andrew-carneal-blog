@@ -4,8 +4,8 @@ title: How To Isolate A Video in Google Chrome
 date: 2021-02-13T17:36:39.436Z
 description: Taking a look at the couple lines of code behind my Video Isolator
   extension for Google Chrome.
-featuredpost: true
-featuredimage: /img/products-grid2.jpg
+featuredpost: false
+featuredimage: /img/safari-pinned-tab.svg
 tags:
   - javascript
   - html
